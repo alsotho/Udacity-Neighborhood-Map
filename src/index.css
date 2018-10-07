@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    z-index: 1;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+.search-field {
+    font-family: 'Lato', sans-serif;
+    background: #f0f8ff;
+    width: 290px;
+    padding: 5px;
+}
+
+ul {
+    font-family: 'Lato', sans-serif;
+    background: #f0f8ff;
+    border: 1px solid darkgrey;
+    overflow: auto;
+    padding: 0px;
+    margin: 0;
+    width: 300px;
+    max-height: 350px;
+    overflow: auto;
+}
+
+.box {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.box:hover {
+    background-color: #99e2e4;
+    color: white;
+}
+
+.button {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: #f0f8ff;
+    border: 1px darkgrey solid;
+    cursor: pointer;
+    width: 301px;
+}
